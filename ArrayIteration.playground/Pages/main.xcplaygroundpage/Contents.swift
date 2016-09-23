@@ -70,7 +70,7 @@ func groceryList(items: [String]) {
 
 }
 
-groceryList(ingredients)
+groceryList(items: ingredients)
 
 
 
@@ -94,7 +94,7 @@ func greetingPerson(names: [String]) {
 
 let friends = ["Jan", "Robert", "Michael", "Harry", "Emma"]
 
-greetingPerson(friends)
+greetingPerson(names: friends)
 
 
 /*: question7
@@ -123,7 +123,7 @@ func classGrades(grades: [Int]) -> [Int] {
 
 var mathTest = [40, 60, 50, 52, 59, 13, 90, 100, 5, 52, 51, 49]
 
-classGrades(mathTest)
+classGrades(grades: mathTest)
 
 
 
